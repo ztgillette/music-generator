@@ -44,3 +44,6 @@ class Chord:
         
         elif self.type == "7thtriad":
             return [3, 5, 7]
+        
+        elif self.type == "note":
+            return [1]
